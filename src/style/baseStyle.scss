@@ -1,3 +1,23 @@
+.round-slider-container{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  margin: 1em;
+
+  div.label {
+    text-align: center;
+    padding: 0;
+    align-self: stretch;
+    white-space: normal;
+
+  }
+
+  div.value {
+  }
+}
+
+
 .Slider {
   display: block;
   width: 5rem;
