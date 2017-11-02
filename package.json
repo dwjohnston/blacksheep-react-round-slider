@@ -1,7 +1,7 @@
 {
   "name": "blacksheep-react-round-slider",
   "version": "0.0.1",
-  "description": "Put a description here",
+  "description": "A simple round style react slider",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
