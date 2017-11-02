@@ -2,8 +2,10 @@ import React from 'react';
 
 import "./style/baseStyle.scss";
 
-class Slider extends Component {
+class Slider extends React.Component {
+
   state = { isPinching: false };
+
 
   componentDidMount() {
     this.x = 0
@@ -114,9 +116,9 @@ Slider.defaultProps = {
 }
 
 Slider.propTypes = {
-  onChange: PropTypes.func,
-  radius: PropTypes.number,
-  border: PropTypes.number,
+  onChange: React.PropTypes.func,
+  radius: React.PropTypes.number,
+  border: React.PropTypes.number,
   value: (props, propName) => {
     const value = parseInt(props[propName])
 
