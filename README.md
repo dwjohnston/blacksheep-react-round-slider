@@ -5,13 +5,13 @@ This is totally just taken from here: https://codepen.io/anthonydugois/pen/jqEMP
 
 
 
-##Installation
+## Installation
 
 ```
 npm install --save blacksheep-react-round-slider
 ```
 
-##Usage
+## Usage
 
 ```
 import Slider from "blacksheep-react-round-slider"
