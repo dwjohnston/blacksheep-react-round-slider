@@ -17315,7 +17315,7 @@ var RoundSlider = function (_React$Component) {
         _react2.default.createElement(Slider, {
           radius: 200,
           border: 100,
-          value: this.unadjustValue(this.props.value),
+          value: this.state.rawValue,
           onChange: this.handleChange }),
         _react2.default.createElement(
           'div',

@@ -80,7 +80,7 @@ class RoundSlider extends React.Component {
         <Slider
           radius={200}
           border= {100}
-          value={ this.unadjustValue(this.props.value)}
+          value={ this.state.rawValue}
           onChange={ this.handleChange } />
 
         <div className ="value">{this.state.adjustedValue}</div>
